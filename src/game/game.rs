@@ -14,7 +14,7 @@ impl Game {
             components : GameComponentCollection::new(),
             services   : services,
             content    : ContentManager::new( services )
-        }
+        };
 
         let mut platform = GamePlatform::create( game_builder );
 
