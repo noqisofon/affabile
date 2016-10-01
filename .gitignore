@@ -1,0 +1,10 @@
+# Emacs temporary files
+*~
+\#*#
+
+# Cargo files
+target/
+Cargo.lock
+
+# Others
+*.log
